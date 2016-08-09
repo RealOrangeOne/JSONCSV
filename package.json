@@ -2,9 +2,10 @@
   "name": "jsoncsv",
   "version": "0.0.0",
   "description": "Standard for compressed JSON data, inspired by CSV",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RealOrangeOne/JSONCSV/issues"
   },
-  "homepage": "https://github.com/RealOrangeOne/JSONCSV#readme"
+  "homepage": "https://github.com/RealOrangeOne/JSONCSV#readme",
+  "devDependencies": {
+    "typescript": "=1.8.10"
+  }
 }
