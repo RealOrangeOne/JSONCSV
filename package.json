@@ -1,6 +1,6 @@
 {
   "name": "jsoncsv",
-  "version": "0.0.0",
+  "version": "0.1.2",
   "description": "Standard for compressed JSON data, inspired by CSV",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
